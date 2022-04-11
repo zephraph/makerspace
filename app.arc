@@ -1,6 +1,9 @@
 @app
 makerspace
 
+@aws
+runtime typescript
+
 @http
 /api
   method get
@@ -11,3 +14,6 @@ data
   scopeID *String
   dataID **String
   ttl TTL
+
+@plugins
+architect/plugin-typescript
