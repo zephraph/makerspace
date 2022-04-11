@@ -8,26 +8,6 @@
     "lint": "eslint src --fix",
     "start": "npx sandbox"
   },
-  "arc": {
-    "app": "svelte-app",
-    "http": [
-      {
-        "/api": {
-          "method": "get",
-          "src": "/api"
-        }
-      }
-    ],
-    "tables": [
-      {
-        "data": {
-          "scopeID": "*String",
-          "dataID": "**String",
-          "ttl": "TTL"
-        }
-      }
-    ]
-  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.0",
     "@rollup/plugin-node-resolve": "^13.0.5",
